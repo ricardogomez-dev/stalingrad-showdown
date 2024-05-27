@@ -26,7 +26,7 @@ Then install npm dependencies:
 
     npm install
 
-Then run build the frontend:
+Then build the frontend:
 
     npm run dev
 
