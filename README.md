@@ -18,6 +18,10 @@ After building the container, install the composer dependencies, you can open a 
 
     docker-compose exec php composer install
 
+Run the database seeder:
+
+    docker compose exec php php seeders/DatabaseSeeder.php
+
 Then go to the frontend folder:
 
     cd frontend
